@@ -1,0 +1,76 @@
+/* Add Your Styles Here! */
+
+body {
+  background-color:lightblue;
+}
+
+#root{
+  width:700px;
+  background-color:orange;
+  margin:auto;
+  text-align:center;
+  margin-top:120px;
+  height:700px;
+}
+
+.title{
+  background-color:lightgreen;
+  height:100px;
+  margin-top:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.description{
+  background-color:white;
+  margin:10px;
+  text-align:left;
+}
+#p1{
+  margin-bottom:0px;
+}
+
+#p2{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+svg{
+  width:600px;
+  margin:0px;
+  background-color:white;
+  height:400px;
+  margin: auto;
+  position: relative;
+  display: block;
+}
+
+.toolbar{
+  display:inline-block;
+  width:150px;
+  border:solid;
+  margin-top:0px;
+  border-color:black;
+  background-color:white;
+}
+
+button{
+  background-color:lightblue;
+  width:80px;
+}
+
+.vertex {
+  stroke: black;
+  fill: white;
+  stroke-width: 4;
+}
+
+.vertex:hover {
+  fill: rgb(200, 200, 255);
+}
+
+.edge {
+  stroke: black;
+  stroke-width: 4px;
+}
